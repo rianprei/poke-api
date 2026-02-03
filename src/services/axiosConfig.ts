@@ -15,5 +15,5 @@ export const get = async (url: string, config?: AxiosRequestConfig<any>) => {
       throw error;
     });
 
-    return response
+  return response;
 };
